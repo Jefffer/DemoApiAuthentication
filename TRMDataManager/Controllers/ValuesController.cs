@@ -19,6 +19,11 @@ namespace TRMDataManager.Controllers
         }
 
         // GET api/values/5
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public string Get(int id)
         {
             return "value";
